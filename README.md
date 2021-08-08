@@ -1,3 +1,5 @@
+<a href="README.cli.md">Switch to CLI mode</a>
+
 <h1 align="center">超天才ぺやんぐさん！</h1>
 <h2 align="center">最強のぺやんぐ！</h2>
 <h3 align="center">AllManスタイル最強！</h3>
