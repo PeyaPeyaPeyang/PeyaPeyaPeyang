@@ -16,7 +16,7 @@
 <br>
   ✞↑おねがい押して！！！！↑✞
   <br>
-  ⇣キャッシュされちゃってたまに動かないアクセスカウンター
+  ⇣(キャッシュされちゃってたまに動かない)アクセスカウンター！！！
   <br>
   <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/"></a>
   
