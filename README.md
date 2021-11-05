@@ -2,6 +2,7 @@
 
 <a href="README.ja.md">このページの言語は日本語も対応します。</a>
 
+
 ---
 
 <h1 align="center">超天才ぺやんぐさん！</h1>
