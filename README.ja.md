@@ -4,7 +4,7 @@
 
 ### すべての人様式は最強です。
 
-### Java-8は永遠です。
+### Java 8は永遠です。
 
 <details>
   <summary>そうそう</summary>
