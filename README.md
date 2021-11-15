@@ -9,6 +9,7 @@
 <h2 align="center">最強のぺやんぐ！</h2>
 <h3 align="center">AllManスタイル最強！</h3>
 <h4 align="center">永遠のJava8！</h4>
+<h4 align="center">Python大好き！！！</h4>
   <details align="center">
     <summary>そうはならんやろ</summary>
     なっとるやろがい
