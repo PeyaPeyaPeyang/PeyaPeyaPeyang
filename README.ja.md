@@ -43,4 +43,4 @@ Sはウィンドウズを使用しており、いくつかのUbuntu。
 
 ブラウザはGoogle Chrome生粋の。
 
-これらはコンタクト行います[トゥイッター。](https://twitter.com/peyang9799)、不協和音Peyang＃0001。
+これらはコンタクト行います[トゥイッター。](https://twitter.com/peyang9799)、不和Peyang＃0001。
