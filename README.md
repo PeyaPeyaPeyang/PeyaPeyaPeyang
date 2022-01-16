@@ -1,6 +1,6 @@
-<a href="README.cli.md">Switch to CLI mode</a>
+<a href="README.cli.md"Switch to CLI mode</a>
 
-<a href="README.ja.md">このページは一つの他の言語にもcompatible：日本語</a>
+<a href="README.ja.md">このページのディスプレイ言語はもう1つ(s)の言語においてcompatibleを行います：日國語</a>
 
 
 ---
