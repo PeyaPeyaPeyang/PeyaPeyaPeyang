@@ -1,6 +1,8 @@
 <a href="README.cli.md">Switch to CLI mode</a>
 
-<a href="README.ja.md">このページのディスプレイ言語はもう1つ(s)の言語においてcompatibleを行います：日國語</a>
+<a href="README.ja.md">このページのディスプレイ言語はもう1つ(s)の言語においてcompatibleを行います：日國語  
+翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirectTransifex Pro' Peyang Edition）』
+</a>
 
 
 ---
