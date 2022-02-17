@@ -17,7 +17,7 @@
     なっとるやろがい
   </details>
 
-<p align="">
+<p align="center">
   ✞⇣おねがい押して！！！！⇣✞
   <br>
   <a href="http://clap.webclap.com/clap.php?id=4SBCdSDI.97PjUFjsa7uds-o.nDxnnQ@&page_id=githubProfile" target="_blank" onclick="window.open('http://clap.webclap.com/clap.php?id=4SBCdSDI.97PjUFjsa7uds-o.nDxnnQ@&page_id=githubProfile','webclap','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=yes');return false;">web拍手ボタン</a>
