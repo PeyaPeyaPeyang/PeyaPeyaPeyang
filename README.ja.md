@@ -8,20 +8,22 @@
 
 <details>
   <summary>押す。それのように。</summary>
-  それは疲れています 
+  それは疲れているでしょう。 
 </details>
+
+
 
 ↓↓↓プッシュします(しなさい)。
 
 <a href="http://clap.webclap.com/clap.php?id=4SBCdSDI.97PjUFjsa7uds-o.nDxnnQ@&page_id=githubProfile" target="_blank" onclick="window.open('http://clap.webclap.com/clap.php?id=4SBCdSDI.97PjUFjsa7uds-o.nDxnnQ@&page_id=githubProfile','webclap','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=yes');return false;">WEB拍手ボタン</a>
-
+メッセージを待っています。会えて嬉しい。  
 ↑↑↑プッシュします(しなさい)。
 
 
 ## 詳細
-私はぺやんぐです。ぺやんぐは日本に在住し現在、日本語を話します。
+私はぺやんぐです。ぺやんぐは日本に在住し、現在日本語を話します。
 <details>
-  <summary言語の詳細。</summary>
+  <summary>アバウトな言語。</summary>
 
   ```
   ｊａーｊｐ。UTF-8 ｒｗｘ
@@ -31,14 +33,15 @@
 </details>
 
 趣味はアニメ、Ｃｏｄｉｎｇ、Ｇａｍｉｎｇです。
-プログラミング言語はジャバを記述。または最近のPythonは個人間の流行りです。
+プログラミング言語はJavaを記述し、太陽神託認証を心得ています。  
+または最近のPythonは個人間の流行りです。
 
 
-応答大勢はウィンドウズを使用しており、いくつかのUbuntuはｉｎｓｔｅａｄ。
+応答大勢は窓。いくつかのUbuntuはｉｎｓｔｅａｄ。
 バージョン管理システムにはギット、補助人バージョンを使用しました。
-エディタは使用を知能のアイデアj。ビジュアルスタジオ、ビジュアルスタジオ記号も使用は行います。最近はNeoVimの勧誘があり使用はじめます。軽率は桜編集者も使用していますnow。
+編集者は使用を知能のアイデアj。ビジュアルスタジオ、ビジュアルスタジオ記号も使用は行います。最近はNeoVimの勧誘があり使用はじめます。軽率は桜編集者も使用していますnow。
 
-ブラウザはGoogle Chrome生粋の。
+ブラウザはGoogle Chrome。
 
 これらはコンタクト行います[トゥイッター。](https://twitter.com/peyang9799)、不和Peyang＃0001。
 <br><br><br><br>
