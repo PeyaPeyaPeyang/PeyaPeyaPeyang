@@ -46,4 +46,4 @@
 これらはコンタクト行います[トゥイッター。](https://twitter.com/peyang9799)、不和Peyang＃0001。
 <br><br><br><br>
 
-翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirectTransifex Pro' Peyang Edition）』
+翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
