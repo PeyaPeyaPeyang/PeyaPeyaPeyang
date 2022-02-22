@@ -12,7 +12,6 @@
 </details>
 
 
-
 ↓↓↓プッシュします(しなさい)。
 
 <a href="http://clap.webclap.com/clap.php?id=4SBCdSDI.97PjUFjsa7uds-o.nDxnnQ@&page_id=githubProfile" target="_blank" onclick="window.open('http://clap.webclap.com/clap.php?id=4SBCdSDI.97PjUFjsa7uds-o.nDxnnQ@&page_id=githubProfile','webclap','toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=yes');return false;">WEB拍手ボタン</a>
