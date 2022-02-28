@@ -20,9 +20,9 @@
 
 
 ## 詳細
-私はぺやんぐです。ぺやんぐは日本に在住し、現在日本語を話します。
+私はぺやんぐです。ぺやんぐは日本国に過ごし、現在日本語をメイン言語です。
 <details>
-  <summary>アバウトな言語。</summary>
+  <summary>それは私の言葉。</summary>
 
   ```
   ｊａーｊｐ。UTF-8 ｒｗｘ
@@ -43,6 +43,7 @@
 ブラウザはGoogle Chrome。
 
 ## 私の手際の良さ
+私はいくつか資格を所持しました。
 + 日本の。
   * $国名
     - それはパスポートです
@@ -50,7 +51,7 @@
   * シニフィエ
     - 番組構成実力テストJava。サンキュウ!
 + 世界的
-  * オラクル株式会社
+  * 太陽オラクル株式会社
     - 神託認定Java番組構成者、シルバー(銀 音響効果8
     - オラクル認証済みJavaプログラマ、金メダル 音響効果 8
 
@@ -60,4 +61,4 @@
 
 <br><br><br><br>
 
-翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
+翻訳者: フリー百人力翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
