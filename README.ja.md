@@ -42,7 +42,22 @@
 
 ブラウザはGoogle Chrome。
 
+## 私の手際の良さ
++ 日本の。
+  * $国名
+    - それはパスポートです
+    - お知らせのセキュリティについての経営
+  * シニフィエ
+    - 番組構成実力テストJava。サンキュウ!
++ 世界的
+  * オラクル株式会社
+    - 神託認定Java番組構成者、シルバー(銀 音響効果8
+    - オラクル認証済みJavaプログラマ、金メダル 音響効果 8
+
+## 私に接触
+
 これらはコンタクト行います[トゥイッター。](https://twitter.com/peyang9799)、不和Peyang＃0001。
+
 <br><br><br><br>
 
 翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
