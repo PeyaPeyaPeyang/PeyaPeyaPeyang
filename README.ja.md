@@ -25,8 +25,8 @@
   <summary>それは私の言葉。</summary>
 
   ```
-  ｊａーｊｐ。UTF-8 ｒｗｘ
-  ｅｎーｊｐ。PEYA-NG ｒーｘ
+  ｊａ＿ｊｐ。UTF-8 ｒｗｘ
+  ｅｎ＿ｊｐ。PEYA-NG ｒーｘ
   ```
 
 </details>
