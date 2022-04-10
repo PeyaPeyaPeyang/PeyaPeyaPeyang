@@ -20,7 +20,7 @@ $ sudo peyafetch
                           .             -----
     ..----.              #@-            OS: Windows, Ubuntu
 +@@####++#@@#.           #@@####-       VCS: Git, Svn
-           +@@           +@+....        Editor: Intellij IDEA, VSCode, NeoVim, Sakura Editor
+           +@@           +@+....        Editor: Intellij IDEA, VSCode, Sakura Editor
            -@@        ---#@+            Browser: Google Chrome
         .-#@@.      #@#++@@@@#-         
    +@@@@@#+.        @@+--@@-.+@@-
