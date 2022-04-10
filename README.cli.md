@@ -5,7 +5,7 @@ E: Permission denied
 $ sudo peyafetch
           ..          ##  +#.           peyang@peyantu
     -@@+ -+++         #@++@@@@@@#-      ---------------
-   #@+-@@-           -@#@@+-.-@- #@+    Language: ja-jp.UTF-8 rwx, en-jp.PEYA-NG r-x
+   #@+-@@-           -@#@@+-.-@- #@+    Language: ja-JP.UTF_8 rwx, en_JP.PEYA-NG r-x
  -@@.   +@@-            +@-  .-.-@@-    Hobby: anime, coding, gaming
 +@+      .#@@-           @@  +###+.     Country: Japan
            .#@+          +@+            
