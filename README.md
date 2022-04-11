@@ -24,10 +24,9 @@
 <br>
   ✞↑おねがい押して！！！！↑✞
   <br>
-  ⇣(キャッシュされちゃってたまに動かない)アクセスカウンター！！！
   <br>
-  <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/"></a>
-  
+  あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/"></a> 人目のアリス...
+  <br>
   <br>
   <a href="mailto:contact@mail.peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
   <img align="center" src="https://img.shields.io/static/v1?label=Discord&message=Peyang%230001&color=%237289DA&style=flat-square">
