@@ -40,7 +40,7 @@
   <br>
   <br>
   <br>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TeamKun&repo=TeamKunPluginManager&theme=github_dark" height="200"></a>
+  <a href="https://github.com/TeamKUN/TeamKUNPluginManager"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TeamKun&repo=TeamKunPluginManager&theme=github_dark" height="200"></a>
   <br>
   <br>
   <a href="https://profile.codersrank.io/user/peyang-celeron/"><img align="center" src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=peyang-Celeron" width="600"></a>
