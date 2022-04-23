@@ -10,7 +10,7 @@
 <h1 align="center">超天才ぺやんぐさん！</h1>
 <h2 align="center">最強のぺやんぐ！</h2>
 <h3 align="center">AllManスタイル最強！</h3>
-<h4 align="center">永遠のJava8！</h4>
+<h4 align="center">永遠のJava1.8！</h4>
 <h4 align="center">Python大好き！！！(最近はC#も)</h4>
   <details align="center">
     <summary>そうはならんやろ</summary>
