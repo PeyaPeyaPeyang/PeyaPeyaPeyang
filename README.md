@@ -4,6 +4,8 @@
 翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
 </a>
 
+<a href="README.wiki.md">出典：フリーぺやんぐ時点『PeyaPedia』</a>
+
 ---
 
 <h1 align="center">超天才ぺやんぐさん！</h1>
