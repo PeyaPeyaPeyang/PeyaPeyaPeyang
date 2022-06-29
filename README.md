@@ -3,8 +3,8 @@
 <a href="README.ja.md">このページのディスプレイ言語はもう1つ(s)の言語においてcompatibleを行います：日國語  
 翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
 </a>
-<a href="README.wiki.md">出典：フリーぺやんぐ辞典『PeyaPedia』</a>
 
+<a href="README.wiki.md">出典：フリーぺやんぐ辞典『PeyaPedia』</a>
 ---
 
 <h1 align="center">超天才ぺやんぐさん！</h1>
