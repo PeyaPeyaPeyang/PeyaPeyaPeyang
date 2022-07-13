@@ -51,10 +51,12 @@
 ---
 
 ## 法のあれこれ
-+ このREADME および このリポジトリは, [NYSLライセンス v0.9982](LICENSE)により公開されています.
++ このREADME および このリポジトリは, [NYSLライセンス v0.9982](LICENSE)で公開されています.
 
 #### ところで
 <details>
   <summary>NYSLってなんの略?</summary>
+  
   [煮るなり焼くなり好きにしろライセンス。](https://www.kmonos.net/nysl/faq.html#:~:text=Q.%20NYSL%E3%81%A3%E3%81%A6%E4%BD%95%E3%81%AE%E7%95%A5%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F)
+  
 </details>
