@@ -37,6 +37,7 @@
   <br>
   <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=peyang-Celeron&show_icons=true&theme=github_dark&&include_all_commits=true" height="200"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=peyang-Celeron&show_icons=true&theme=github_dark&hide=shell&layout=compact" height="200"></a>
   <a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=peyang-Celeron&row=1&no-bg=true&no-frame=true&theme=darkhub"></a>
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img align="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/profile-3d-contrib/profile-night-rainbow.svg"></a>
   <br>
   <br>
   <br>
