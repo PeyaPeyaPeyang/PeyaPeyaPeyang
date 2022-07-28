@@ -37,18 +37,105 @@
   <br>
   <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=peyang-Celeron&show_icons=true&theme=github_dark&&include_all_commits=true" height="200"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=peyang-Celeron&show_icons=true&theme=github_dark&hide=shell&layout=compact" height="200"></a>
   <a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=peyang-Celeron&row=1&no-bg=true&no-frame=true&theme=darkhub"></a>
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img align="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/profile-3d-contrib/profile-night-rainbow.svg"></a>
-  <br>
-  <br>
-  <br>
-  <a href="https://github.com/TeamKUN/TeamKUNPluginManager"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TeamKun&repo=TeamKunPluginManager&theme=github_dark" height="200"></a>
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img align="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/profile-3d-contrib/profile-night-rainbow.svg" width=700></a>
   <br>
   <br>
   <a href="https://profile.codersrank.io/user/peyang-celeron/"><img align="center" src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=peyang-Celeron" width="600"></a>
   <br>
-  <img aligh="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/thisisliterallyabadge.png" width="200">
+  
+  <img aligh="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/thisisliterallyabadge.png" width="100">
 </p>
 
+
+---
+
+## せんでん
+
+### [Peyang Awesome Pterodactyl Theme](https://gist.github.com/peyang-Celeron/6022f4d4ae42728e4f8d27df5d85f75a)
+
+ぺやん製のつよつよ Pterodactyl テーマ(UserCSS)。(A pterodactyl theme made by UserCSS)  
+主な機能(Features)：
++ 背景画像(Background image)
++ カスタムエディタフォント(Custom editor font)
+etc...
+
+<a href="https://gist.github.com/peyang-Celeron/6022f4d4ae42728e4f8d27df5d85f75a"><img src="https://user-images.githubusercontent.com/42040068/181637869-57f36b8d-4034-425b-9b2e-90598f4183c8.png" width=550></a> 
+
+### [TeamKUN ~Package~ Plugin Manager](https://github.com/TeamKun/TeamKUNPluginManager)
+
+KUNLab(今のところぺやんのみ)製のプラグインマネージャ。(A plugin manager made in Japan)    
+主な機能(Features)：
++ 依存関係の自動解決(Automatically dependencies resolving)
++ 依存関係ツリーの構築(Create dependencies tree)
++ GitHubのリリースからのかんたんインストール(Install plugin from GitHub slightly less difficult)
++ 高度なプラグインリゾルバ(Advanced plugin resolver)
+
+![](https://raw.githubusercontent.com/wiki/TeamKun/TeamKUNPluginManager/images/kpm.png)]
+
+### [PeyangPaperUtils](https://github.com/TeamKun/PeyangPaperUtils)
+
+KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong library for PaperMC made in Japan)  
+主な機能(Features)：
++ Terminal API
+  ```java
+  Player player;
+  Terminal term = Terminals.of(player);
+  term.info("Hello, World!");
+  // => (ChatColor.BLUE) I: Hello, World!
+  term.success("%b, %d = %d", 1 == 1, 1, 1);
+  // => (ChatColor.GREEN) S: Yes, 1 = 1.
+  term.error("No, java doesn't know math.");
+  // => (ChatColor.RED) E: No, java doesn't know math.
+  term.warn("Just like peyang.");
+  // => (ChatColor.YELLOW) W: Just like peyang.
+  ```
++ 質問システム (Questioning system) (JAPANESE ONLY)
+  
+  <details>
+    <summary>さんぷるこーど (Example Code)</summary>
+
+      ```
+        Terminal term;
+
+        Question question = term.getInput().showYNQuestionCancellable("Do you like Sushi?", QuestionAttribute.APPLY_FOR_ALL, QuestionAttribute.CANCELLABLE);
+
+        /* =>
+        ===============================================================
+                            Do you like Sushi?
+
+        1. はい                                         // Yes
+        2. いいえ                                       // No
+        3. キャンセル                                   // Cancel
+        4. すべてはい                                   // Yes for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+        5. すべていいえ                                 // No for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+        6. すべてキャンセル                             // Cancel for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+        ===============================================================
+        */
+
+        QuestionResult result = question.waitAndGetResult(); // Blocking method
+
+        if (!terminal.test(QuestionAttribute.CANCELLABLE))
+            terminal.success(result.getRawAnswer()); // Get raw answer
+        else
+            terminal.error("NO, THE PLAYER CANCELLED THIS ACTION.")
+
+        if (terminal.test(QuestionAttribute.YES_FOR_ALL))
+            terminal.info("↑ For ALL");
+
+    ```
+    
+    
+  </details>
+  
++ BukkitRunnableの省略(Omit ~~verbose~~ nice syntax of BukkitRunnable)
+  ```java
+  Runner.run(() => {
+    Terminal.ofConsole().info("Hello, world!");
+  });
+  ```
++ コマンドシステム (Command System)
+  - サブコマンドの提供 (Provides subcommand)
+  - ヘルプの自動生成 (Auto generating of command helps)
 ---
 
 ## 法のあれこれ
