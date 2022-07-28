@@ -22,10 +22,9 @@ jobs:
       - name: Set UUID
         id: generate-uuid
         uses: filipstefansson/uuid-action@v1
-      - uses: jacobtomlinson/gha-find-replace@v2
-        with:
-          find: "<RANDOM_ACCESS_COUNTER_SEED>"
-          replace: ${{ steps.generate-uuid.outputs.uuid }}
+      - name: Generate access counter
+        run: |
+            cat README.template.md | sed -e "s/<RANDOM_ACCESS_COUNTER_SEED>/${{ steps.generate-uuid.outputs.uuid }}/g" > README.md
       - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
