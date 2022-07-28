@@ -70,7 +70,7 @@ KUNLab(今のところぺやんのみ)製のプラグインマネージャ。(A 
 + GitHubのリリースからのかんたんインストール(Install plugin from GitHub slightly less difficult)
 + 高度なプラグインリゾルバ(Advanced plugin resolver)
 
-![](https://raw.githubusercontent.com/wiki/TeamKun/TeamKUNPluginManager/images/kpm.png)]
+![](https://raw.githubusercontent.com/wiki/TeamKun/TeamKUNPluginManager/images/kpm.png)
 
 ### [PeyangPaperUtils](https://github.com/TeamKun/PeyangPaperUtils)
 
