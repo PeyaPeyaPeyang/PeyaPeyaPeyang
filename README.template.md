@@ -60,6 +60,7 @@
 etc...
 
 <a href="https://gist.github.com/peyang-Celeron/6022f4d4ae42728e4f8d27df5d85f75a"><img src="https://user-images.githubusercontent.com/42040068/181637869-57f36b8d-4034-425b-9b2e-90598f4183c8.png" width=550></a> 
+(Background image: https://search.find47.jp/ja/i/LeA39, Kyoto, Japan, CC-BY 4.0 Author: Suganu0405)
 
 ### [TeamKUN ~Package~ Plugin Manager](https://github.com/TeamKun/TeamKUNPluginManager)
 
