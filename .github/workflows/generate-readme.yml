@@ -19,13 +19,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Generate random number
-        id: random_number
-        run:  echo "::set-output name=random_number::$RANDOM"
+      - name: Set UUID
+        id: generate-uuid
+        uses: filipstefansson/uuid-action@v1
       - uses: jacobtomlinson/gha-find-replace@v2
         with:
           find: "<RANDOM_ACCESS_COUNTER_SEED>"
-          replace: ${{ steps.generate_number.outputs.random_number }}
+          replace: ${{ steps.generate-uuid.outputs.uuid }}
       - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
