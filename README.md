@@ -125,8 +125,7 @@ KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong
 
     ```
     
-    
-  </details>
+</details>
   
 + BukkitRunnableの省略(Omit ~~verbose~~ nice syntax of BukkitRunnable)
   ```java
