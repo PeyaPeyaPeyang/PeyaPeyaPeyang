@@ -25,7 +25,7 @@
   ✞↑おねがい押して！！！！↑✞
   <br>
   <br>
-  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#ac4b6d80-11c4-11ed-b83c-25d068e4976c"></a> 人目のアリス... ✞✞
+  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#c4b04b10-128d-11ed-be99-adfd66865d3a"></a> 人目のアリス... ✞✞
   <br>
   <br>
   <a href="mailto:contact@mail.peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
@@ -95,37 +95,38 @@ KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong
   <details>
     <summary>さんぷるこーど (Example Code)</summary>
 
-    ```java
-      Terminal term;
+      ```
+        Terminal term;
 
-      Question question = term.getInput().showYNQuestionCancellable("Do you like Sushi?", QuestionAttribute.APPLY_FOR_ALL, QuestionAttribute.CANCELLABLE);
+        Question question = term.getInput().showYNQuestionCancellable("Do you like Sushi?", QuestionAttribute.APPLY_FOR_ALL, QuestionAttribute.CANCELLABLE);
 
-      /* =>
-      ===============================================================
-                          Do you like Sushi?
+        /* =>
+        ===============================================================
+                            Do you like Sushi?
 
-      1. はい                                         // Yes
-      2. いいえ                                       // No
-      3. キャンセル                                   // Cancel
-      4. すべてはい                                   // Yes for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
-      5. すべていいえ                                 // No for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
-      6. すべてキャンセル                             // Cancel for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
-      ===============================================================
-      */
+        1. はい                                         // Yes
+        2. いいえ                                       // No
+        3. キャンセル                                   // Cancel
+        4. すべてはい                                   // Yes for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+        5. すべていいえ                                 // No for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+        6. すべてキャンセル                             // Cancel for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+        ===============================================================
+        */
 
-      QuestionResult result = question.waitAndGetResult(); // Blocking method
+        QuestionResult result = question.waitAndGetResult(); // Blocking method
 
-      if (!terminal.test(QuestionAttribute.CANCELLABLE))
-          terminal.success(result.getRawAnswer()); // Get raw answer
-      else
-          terminal.error("NO, THE PLAYER CANCELLED THIS ACTION.")
+        if (!terminal.test(QuestionAttribute.CANCELLABLE))
+            terminal.success(result.getRawAnswer()); // Get raw answer
+        else
+            terminal.error("NO, THE PLAYER CANCELLED THIS ACTION.")
 
-      if (terminal.test(QuestionAttribute.YES_FOR_ALL))
-          terminal.info("↑ For ALL");
+        if (terminal.test(QuestionAttribute.YES_FOR_ALL))
+            terminal.info("↑ For ALL");
 
-  ```
+    ```
     
-</details>
+    
+  </details>
   
 + BukkitRunnableの省略(Omit ~~verbose~~ nice syntax of BukkitRunnable)
   ```java
