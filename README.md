@@ -95,35 +95,35 @@ KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong
   <details>
     <summary>さんぷるこーど (Example Code)</summary>
 
-      ```
-        Terminal term;
+    ```java
+      Terminal term;
 
-        Question question = term.getInput().showYNQuestionCancellable("Do you like Sushi?", QuestionAttribute.APPLY_FOR_ALL, QuestionAttribute.CANCELLABLE);
+      Question question = term.getInput().showYNQuestionCancellable("Do you like Sushi?", QuestionAttribute.APPLY_FOR_ALL, QuestionAttribute.CANCELLABLE);
 
-        /* =>
-        ===============================================================
-                            Do you like Sushi?
+      /* =>
+      ===============================================================
+                          Do you like Sushi?
 
-        1. はい                                         // Yes
-        2. いいえ                                       // No
-        3. キャンセル                                   // Cancel
-        4. すべてはい                                   // Yes for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
-        5. すべていいえ                                 // No for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
-        6. すべてキャンセル                             // Cancel for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
-        ===============================================================
-        */
+      1. はい                                         // Yes
+      2. いいえ                                       // No
+      3. キャンセル                                   // Cancel
+      4. すべてはい                                   // Yes for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+      5. すべていいえ                                 // No for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+      6. すべてキャンセル                             // Cancel for all (Effect of QuestionAttribute.APPLY_FOR_ALL)
+      ===============================================================
+      */
 
-        QuestionResult result = question.waitAndGetResult(); // Blocking method
+      QuestionResult result = question.waitAndGetResult(); // Blocking method
 
-        if (!terminal.test(QuestionAttribute.CANCELLABLE))
-            terminal.success(result.getRawAnswer()); // Get raw answer
-        else
-            terminal.error("NO, THE PLAYER CANCELLED THIS ACTION.")
+      if (!terminal.test(QuestionAttribute.CANCELLABLE))
+          terminal.success(result.getRawAnswer()); // Get raw answer
+      else
+          terminal.error("NO, THE PLAYER CANCELLED THIS ACTION.")
 
-        if (terminal.test(QuestionAttribute.YES_FOR_ALL))
-            terminal.info("↑ For ALL");
+      if (terminal.test(QuestionAttribute.YES_FOR_ALL))
+          terminal.info("↑ For ALL");
 
-    ```
+  ```
     
 </details>
   
