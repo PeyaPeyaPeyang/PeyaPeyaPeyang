@@ -23,7 +23,8 @@ jobs:
         uses: filipstefansson/uuid-action@v1
       - name: Generate access counter
         run: |
-          git checkout -b readme-showcase origin/readme-showcase
+          git fetch --all
+          git checkout readme-showcase
           git merge --ff-only master
           cat README.template.md | sed -e "s/<RANDOM_ACCESS_COUNTER_SEED>/${{ steps.generate-uuid.outputs.uuid }}/g" > README.md
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
