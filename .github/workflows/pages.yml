@@ -30,6 +30,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Set Variables
+        run: |
+          find www -type f | xargs sed -f .github/workflow/pages.sed
       - name: Setup Pages
         uses: actions/configure-pages@v1
       - name: Upload artifact
