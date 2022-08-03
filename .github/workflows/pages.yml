@@ -33,7 +33,6 @@ jobs:
       - name: Set Variables
         run: |
           LAST_COMMIT_DATE=${{ github.event.head_commit.timestamp }}
-          LAST_COMMIT_DATE=${LAST_COMMIT_DATE//[-:TZ]/}
           
           LAST_COMMIT_MESSAGE=${{ github.event.head_commit.message }}
           
@@ -41,8 +40,8 @@ jobs:
             LAST_COMMIT_MESSAGE=${LAST_COMMIT_MESSAGE//$/\\\$}
           
           find www -type f | xargs sed \
-          -e "s/\\\$\\\$LAST_COMMIT_DATE\\\$/$LAST_COMMIT_DATE/g" \
-          -e "s/\\\$\\\$LAST_COMMIT_MESSAGE\\\$/$LAST_COMMIT_MESSAGE/g" \
+          -e "s/\\\$LAST_COMMIT_DATE\\\$/$LAST_COMMIT_DATE/g" \
+          -e "s/\\\$LAST_COMMIT_MESSAGE\\\$/$LAST_COMMIT_MESSAGE/g" \
           -i
 
       - name: Setup Pages
