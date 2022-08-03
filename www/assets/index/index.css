@@ -1,0 +1,10 @@
+#title-table {
+    border: solid 7px lavender;
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+}
+
+#title-table > tr {
+    border: solid 1px lavender;
+}

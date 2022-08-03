@@ -1,0 +1,20 @@
+* {
+    color: #eee;
+    font-family: "MS Gothic", serif;
+}
+
+body {
+    background-color: #000;
+    background-image: url('background.png'), url('background.png');
+    background-repeat: repeat-y;
+    background-position: -45px, calc(100vw - 100px);
+    background-size: 150px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
