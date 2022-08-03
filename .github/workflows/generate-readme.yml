@@ -3,7 +3,7 @@ name: Generate README.md
 on:
   push:
     branches:
-      - master
+      - develop
     paths:
     - 'README.template.md'
   schedule:
