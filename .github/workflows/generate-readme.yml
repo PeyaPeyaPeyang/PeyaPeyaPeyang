@@ -17,11 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: master
-      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          ref: develop
       - name: Set UUID
         id: generate-uuid
         uses: filipstefansson/uuid-action@v1
@@ -30,6 +26,10 @@ jobs:
           git checkout readme-showcase
           git merge --ff-only master
           cat README.template.md | sed -e "s/<RANDOM_ACCESS_COUNTER_SEED>/${{ steps.generate-uuid.outputs.uuid }}/g" > README.md
+      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
       - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
