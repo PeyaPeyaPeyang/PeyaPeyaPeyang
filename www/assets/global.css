@@ -1,20 +1,51 @@
 * {
     color: #eee;
     font-family: "MS Gothic", serif;
+
 }
 
 body {
     background-color: #000;
     background-image: url('background.png'), url('background.png');
     background-repeat: repeat-y;
-    background-position: -45px, calc(100vw - 100px);
+    background-position: -60px, calc(100vw - 100px);
     background-size: 150px;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+a {
+    color: red;
+}
+
+table {
+    border: solid 1px #fff;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: solid 1px #fff;
+    padding: 10px;
+}
+
+.blink {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
