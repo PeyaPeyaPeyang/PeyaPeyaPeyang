@@ -33,7 +33,7 @@ jobs:
       - name: Set Variables
         run: |
           find www -type f | xargs sed -e "s/\$LAST_COMMIT_DATE\$|${{ github.event.head_commit.timestamp }}/g" .github/workflows/pages.sed
-          find www -type f | xargs sed -e "s/\$LAST_COMMIT_MESSAGE\$|${{ github.event.head_commit.message }}/g" .github/workflows/pages.sed
+          find www -type f | xargs sed -e "s/\$LAST_COMMIT_MESSAGE\${{ github.event.head_commit.message }}/g" .github/workflows/pages.sed
 
       - name: Setup Pages
         uses: actions/configure-pages@v1
