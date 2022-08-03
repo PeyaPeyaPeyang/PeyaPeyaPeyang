@@ -25,7 +25,7 @@ jobs:
         run: |
           git fetch --all
           git checkout readme-showcase
-          git merge --ff-only master
+          git merge --ff-only develop
           cat README.template.md | sed -e "s/<RANDOM_ACCESS_COUNTER_SEED>/${{ steps.generate-uuid.outputs.uuid }}/g" > README.md
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
         env:
