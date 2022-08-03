@@ -26,13 +26,17 @@
                 alert('AdBlockが検出されました。\nユーザエクスペリエンスを向上させるために、AdBlockを解除してください。\n(アクセスカウンターが動きません！)\nキリ番が踏めなくなります！！！');
             }
         }
+
+        const closeAd =() => {
+            document.getElementById('kohkoku').style = 'display: none';
+        }
     </script>
 </head>
 <!-- This site is like '90s website.
  So、I'm using html4.
  -->
 <body>
-<header class="container">
+<header>
     <table id="title">
         <tr><td><marquee><strong><span font-size="10px">・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ</span>☆ ぺやんぐのホームページ ☆<span font-size="10px">・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ</span></strong></marquee></td></tr>
     </table>
@@ -106,6 +110,14 @@
     <a style="white-space: pre; color: dimgray;" href="welcome.htm">さよなら</a>
 
 </div>
+
+<footer>
+    <div id="kohkoku">
+        <div>Lorem ipsum</div>
+        <span class="button" onclick="closeAd()"><a href="#">➕</a></span>
+        <span id="kohkoku_information">この広告は1分以上更新がない場合に表示されます。このページの更新/GitHub経由での更新後、24時間以内に表示されなくなるはずです。</span>
+    </div>
+</footer>
 
 </body>
 </html>
