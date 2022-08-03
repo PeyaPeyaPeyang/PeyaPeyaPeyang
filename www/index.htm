@@ -16,6 +16,19 @@
             for (let i = 0; i < 100; i++) {
                 sayonara.append("↲\n");
             }
+
+            const counter = document.getElementById('counter');
+
+            // if counter is loaded, adblock is not detected.
+
+            if (counter.complete && counter.naturalHeight !== 0) {}
+            else {
+                alert('AdBlockが検出されました。\nユーザエクスペリエンスを向上させるために、AdBlockを解除してください。\n(アクセスカウンターが動きません！)\nキリ番が踏めなくなります！！！');
+            }
+        }
+
+        const closeAd =() => {
+            document.getElementById('kohkoku').style = 'display: none';
         }
     </script>
 </head>
@@ -23,7 +36,7 @@
  So、I'm using html4.
  -->
 <body>
-<header class="container">
+<header>
     <table id="title">
         <tr><td><marquee><strong><span font-size="10px">・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ</span>☆ ぺやんぐのホームページ ☆<span font-size="10px">・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ</span></strong></marquee></td></tr>
     </table>
@@ -31,7 +44,7 @@
     <p >やっほ～。ぺやんだよ。</p>
     <div class="access-counter">
         ✞あなたは
-        <img align="center" src="https://counter1.fc2.com/counter_img.php?id=34452572&main=1">
+        <img align="center" src="https://counter1.fc2.com/counter_img.php?id=34452572&main=1" id="counter">
         人目のアリス...✞
         <p>
             (キリ番は<a href="https://github.com/peyang-Celeron/peyang-Celeron/issues/new">掲示板</a>まで。 踏み逃げ禁止!)
@@ -47,7 +60,7 @@
         このページは、ぺやんが全くもって自主的に作る企業案件ではない趣味のページです。</br>
         ここではぺやんぐが作成したライブラリ、ソフトウェア、 ツールを<font style="font-size: 12px">無料で</font>公開しています。ぜひ見ていってください。<br>
         ぺやんぐの成果物には<del>(ほぼ)</del>ライセンスが設定されており、あなたはライセンスに従う必要があります。同意できる方のみ下のさよならボタンより閲覧できます。
-        <p style="font-size: large">このページは、<a style="font-size: large" href="https://github.com/peyang-Celeron/LICENSE.md">煮るなり焼く下のさようならボタンより閲覧できますなり好きにしろライセンス</a>で公開されています。</p>
+        <p style="font-size: large">このページは、<a style="font-size: large" href="https://github.com/peyang-Celeron/LICENSE.md">煮るなり焼くなり好きにしろライセンス</a>で公開されています。</p>
         このライセンスに同意できない人は<a href="https://yahoo.co.jp">お帰り</a>ください。
 
     </div>
@@ -97,6 +110,14 @@
     <a style="white-space: pre; color: dimgray;" href="welcome.htm">さよなら</a>
 
 </div>
+
+<footer>
+    <div id="kohkoku">
+        <div>Lorem ipsum</div>
+        <span class="button" onclick="closeAd()"><a href="#">➕</a></span>
+        <span id="kohkoku_information">この広告は1分以上更新がない場合に表示されます。このページの更新/GitHub経由での更新後、24時間以内に表示されなくなるはずです。</span>
+    </div>
+</footer>
 
 </body>
 </html>
