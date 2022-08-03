@@ -29,7 +29,7 @@ jobs:
           git config user.name "github_actions"
           git config user.email "github_actions@github.com"
           
-          git merge --allow-unrelated-histories --theirs develop
+          git merge --allow-unrelated-histories -Xtheirs develop
           cat README.template.md | sed -e "s/<RANDOM_ACCESS_COUNTER_SEED>/${{ steps.generate-uuid.outputs.uuid }}/g" > README.md
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
         env:
