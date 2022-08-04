@@ -142,3 +142,16 @@ td {
 
     font-family: "Meiryo", serif;
 }
+
+hr {
+    border: solid 1px #C0C0C0;
+    margin: 50px 10px 10px;
+
+    width: 60vw;
+}
+
+h2.title {
+    font-size: 25px;
+    margin: 10px;
+    font-family: "Meiryo", serif;
+}
