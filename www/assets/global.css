@@ -40,7 +40,9 @@ p, span, #welcome-message {
 
 
 a {
-    color: red;
+    /* color: red; */
+    /* color: olivedrab; */
+    color: chocolate;
 }
 
 table {
