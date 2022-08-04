@@ -1,5 +1,7 @@
 const colour = "random"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
 const sparkles = 50;
+const mleft = 18;
+const mtop = 12;
 
 /****************************
  *  Tinkerbell Magic Sparkle *
@@ -84,16 +86,23 @@ const sparkle = () => {
 
         for (c = 0; c < sparkles; c++)
             if (!starv[c]) {
-                star[c].style.left = (starx[c] = x) + "px";
-                star[c].style.top = (stary[c] = y + 1) + "px";
+                if (x < w.innerWidth + sleft - mleft)
+                    star[c].style.left = (starx[c] = x) + "px";
+                else
+                    star[c].style.left = (starx[c] = x = w.innerWidth + sleft - mleft) + "px";
+                if (y < w.innerHeight + sdown - mtop)
+                    star[c].style.top = (stary[c] = y) + "px";
+                else
+                    star[c].style.top = (stary[c] = y = w.innerHeight + sdown - mtop) + "px";
+
                 star[c].style.clip = "rect(0px, 5px, 5px, 0px)";
                 star[c].childNodes[0].style.backgroundColor = star[c].childNodes[1].style.backgroundColor = (colour === "random") ? newColour() : colour;
-                if (x < w.innerWidth + sleft -10 && y < w.innerHeight + sdown)
+                if (x < w.innerWidth + sleft - mleft && y < w.innerHeight + sdown - mtop)
                     star[c].style.visibility = "visible";
                 else
                 {
-                    star[c].style.top = w.innerHeight + sdown - 5 + "px";
-                    star[c].style.left = w.innerWidth + sleft - 5 + "px";
+                    star[c].style.top = w.innerHeight + sdown - mtop + "px";
+                    star[c].style.left = w.innerWidth + sleft - mleft + "px";
 
                 }
                 starv[c] = 50;
@@ -113,14 +122,14 @@ const update_star = (i) => {
         stary[i] += 1 + m.random() * 3;
         starx[i] += (i % 5 - 2) / 5;
         if (stary[i] < shigh + sdown) {
-            if (stary[i] < w.innerHeight + sdown - 5)
+            if (stary[i] < w.innerHeight + sdown - mtop)
                 star[i].style.top = stary[i] + "px";
             else
-                star[i].style.top = w.innerHeight + sdown - 5 + "px";
-            if (starx[i] < w.innerWidth + sleft - 5)
+                star[i].style.top = w.innerHeight + sdown - mtop + "px";
+            if (starx[i] < w.innerWidth + sleft - mleft)
                 star[i].style.left = starx[i] + "px";
             else
-                star[i].style.left = w.innerWidth + sleft - 5 + "px";
+                star[i].style.left = w.innerWidth + sleft - mleft + "px";
         } else {
             star[i].style.visibility = "hidden";
             starv[i] = 0;
@@ -134,12 +143,12 @@ const update_star = (i) => {
         tiny[i].style.height = "2px";
         tiny[i].style.backgroundColor = star[i].childNodes[0].style.backgroundColor;
         star[i].style.visibility = "hidden";
-        if (stary[i] < w.innerHeight + sdown - 5 && starx[i] < w.innerWidth + sleft - 5)
+        if (stary[i] < w.innerHeight + sdown - mtop && starx[i] < w.innerWidth + sleft - mleft)
             tiny[i].style.visibility = "visible"
         else
         {
-            tiny[i].style.top = w.innerHeight + sdown - 5 + "px";
-            tiny[i].style.left = w.innerWidth + sleft - 5 + "px";
+            tiny[i].style.top = w.innerHeight + sdown - mtop + "px";
+            tiny[i].style.left = w.innerWidth + sleft - mleft + "px";
         }
     }
 }
@@ -153,14 +162,14 @@ const update_tiny = (i) => {
         tinyy[i] += 1 + m.random() * 3;
         tinyx[i] += (i % 5 - 2) / 5;
         if (tinyy[i] < shigh + sdown) {
-            if (tinyy[i] < w.innerHeight + sdown - 5)
+            if (tinyy[i] < w.innerHeight + sdown - mtop)
                 tiny[i].style.top = tinyy[i] + "px";
             else
-                tiny[i].style.top = w.innerHeight + sdown - 5 + "px";
-            if (tinyx[i] < w.innerWidth + sleft - 5)
+                tiny[i].style.top = w.innerHeight + sdown - mtop + "px";
+            if (tinyx[i] < w.innerWidth + sleft - mleft)
                 tiny[i].style.left = tinyx[i] + "px";
             else
-                tiny[i].style.left = w.innerWidth + sleft - 5 + "px";
+                tiny[i].style.left = w.innerWidth + sleft - mleft + "px";
         } else {
             tiny[i].style.visibility = "hidden";
             tinyv[i] = 0;
