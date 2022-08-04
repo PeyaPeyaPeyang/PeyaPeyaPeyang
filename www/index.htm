@@ -10,28 +10,18 @@
 
     <link rel="stylesheet" href="assets/index/index.css">
     <script>
-        window.onload = () => {
+        const closeAd =() => {
+            document.getElementById('kohkoku').style = 'display: none';
+            document.getElementById('kohkoku-margin').style = 'display: none';
+        }
+
+        window.onHeaderLoad(() => {
             const sayonara = document.getElementById('sayonara-lines');
 
             for (let i = 0; i < 100; i++) {
                 sayonara.append("↲\n");
             }
-
-            const counter = document.getElementById('counter');
-
-            // if counter is loaded, adblock is not detected.
-
-            if (counter.complete && counter.naturalHeight !== 0) {}
-            else {
-                alert('AdBlockが検出されました。\nユーザエクスペリエンスを向上させるために、AdBlockを解除してください。\n(アクセスカウンターが動きません！)\nキリ番が踏めなくなります！！！');
-            }
-        }
-
-        const closeAd =() => {
-            document.getElementById('kohkoku').style = 'display: none';
-            document.getElementById('kohkoku-margin').style = 'display: none';
-
-        }
+        });
     </script>
 </head>
 <!-- This site is like '90s website.
@@ -39,20 +29,7 @@
  -->
 <body>
 <header>
-    <table id="title">
-        <tr><td><marquee><strong><span font-size="10px">・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ</span>☆ ぺやんぐのホームページ ☆<span font-size="10px">・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ・*:..｡o○☼*ﾟ</span></strong></marquee></td></tr>
-    </table>
 
-    <p >やっほ～。ぺやんだよ。</p>
-    <div class="access-counter">
-        ✞あなたは
-        <img align="center" src="https://counter1.fc2.com/counter_img.php?id=34452572&main=1" id="counter">
-        人目のアリス...✞
-        <p>
-            (キリ番は<a href="https://github.com/peyang-Celeron/peyang-Celeron/issues/new">掲示板</a>まで。 踏み逃げ禁止!)
-    </div>
-    <br>
-    <h3>This site is Japanese only.</h3>
 </header>
 <div class="container">
     <br>
