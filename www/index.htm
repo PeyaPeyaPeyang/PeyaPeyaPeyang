@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/index/index.css">
     <script>
         window.onload = () => {
-            const sayonara = document.getElementById('#sayonara-lines');
+            const sayonara = document.getElementById('sayonara-lines');
 
             for (let i = 0; i < 100; i++) {
                 sayonara.append("↲\n");
@@ -29,6 +29,8 @@
 
         const closeAd =() => {
             document.getElementById('kohkoku').style = 'display: none';
+            document.getElementById('kohkoku-margin').style = 'display: none';
+
         }
     </script>
 </head>
@@ -59,7 +61,7 @@
         <p>アクセスありがとうございます。</p>
         このページは、ぺやんが自主的に作る全くもって企業案件ではない趣味のページです。</br>
         ここではぺやんぐが作成したライブラリ、ソフトウェア、 ツールを<font style="font-size: 12px">無料で</font>公開しています。ぜひ見ていってください。<br>
-        ぺやんぐの成果物には<del>(ほぼ)</del>ライセンスが設定されており、あなたはライセンスに従う必要があります。同意できる方のみ下のさよならボタンより閲覧できます。
+        ぺやんぐの成果物には<del>(ほぼ)</del>ライセンスが設定されており、あなたはライセンスに従う必要があります。同意できる方のみ一番下のさよならボタンより閲覧できます。
         <p style="font-size: large">このページは、<a style="font-size: large" href="https://github.com/peyang-Celeron/peyang-Celeron/LICENSE.md">煮るなり焼くなり好きにしろライセンス</a>で公開されています。</p>
         このライセンスに同意できない人は<a href="https://yahoo.co.jp">お帰り</a>ください。
 
@@ -104,18 +106,19 @@
     <br>
     <br>
     <p>
-    <span style="white-space: pre; color: dimgray;" id="#sayonara-lines">
+    <span style="white-space: pre; color: dimgray;" id="sayonara-lines">
 </span>
     </p>
     <a style="white-space: pre; color: dimgray;" href="welcome.htm">さよなら</a>
 
+    <div style="min-height: 120px; width: 1px;" id="kohkoku-margin"></div>
 </div>
 
 <footer>
     <div id="kohkoku">
         <div>Lorem ipsum</div>
         <span class="button" onclick="closeAd()"><a href="#">➕</a></span>
-        <span id="kohkoku_information">この広告は1分以上更新がない場合に表示されます。このページの更新/GitHub経由での更新後、24時間以内に表示されなくなるはずです。</span>
+        <span id="kohkoku-information">この広告は1分以上更新がない場合に表示されます。このページの更新/GitHub経由での更新後、24時間以内に表示されなくなるはずです。</span>
     </div>
 </footer>
 
