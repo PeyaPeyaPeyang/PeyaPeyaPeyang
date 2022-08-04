@@ -19,6 +19,26 @@ header, .container {
     align-items: center;
 }
 
+#title {
+    border: solid 7px lavender;
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+}
+
+#title > td {
+    border: solid 1px lavender;
+}
+
+#title strong {
+    font-size: 35px;
+}
+
+p, span, #welcome-message {
+    font-size: small;
+}
+
+
 a {
     color: red;
 }
