@@ -1,7 +1,7 @@
 * {
     color: #eee;
     font-family: "MS Gothic", serif;
-
+    cursor: crosshair;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     background-repeat: repeat-y;
     background-position: -60px, calc(100vw - 100px);
     background-size: 150px;
+
 }
 
 header, .container {
@@ -43,6 +44,7 @@ a {
     /* color: red; */
     /* color: olivedrab; */
     color: chocolate;
+    cursor: pointer;
 }
 
 table {
