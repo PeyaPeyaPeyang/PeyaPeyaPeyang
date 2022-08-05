@@ -88,16 +88,16 @@
             const action = form.getAttribute('action');
             const options = {
                 method: 'POST',
-                body: new FormData(form)
+                body: new FormData(form),
+                mode: 'no-cors',
             };
 
             fetch(action, options)
-                .then((e) => {
-                    if (e.status === 200) {
-                        window.location = "contact_got.htm";
-                    } else {
-                        alert("送信に失敗しました！しばらくしてからためしてください！");
-                    }
+                .then(() => {
+                    window.location = "contact_got.htm";
+                })
+                .catch(() => {
+                    alert("送信に失敗しました！しばらくしてからためしてください！");
                 })
         }
 
