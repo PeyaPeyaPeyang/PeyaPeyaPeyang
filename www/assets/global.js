@@ -12,6 +12,9 @@ window.onAdClose = (func) => {
 const kohkokus = [
     [
         "Lorem_ipsum_cloud", "https://cloud.lorem.ipsum/"
+    ],
+    [
+        "Bermuda_phone", "https://camp-fill.co.jpn/projects/bermuda-2022/"
     ]
 ];
 
