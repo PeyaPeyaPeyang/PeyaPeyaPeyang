@@ -11,16 +11,19 @@ window.onAdClose = (func) => {
 
 const kohkokus = [
     [
-        "Lorem_ipsum_cloud", "https://cloud.lorem.ipsum/"
+        "Lorem_ipsum_cloud.svg", "https://cloud.lorem.ipsum/"
     ],
     [
-        "Bermuda_phone", "https://camp-fill.co.jpn/projects/bermuda-2022/"
+        "Bermuda_phone.svg", "https://camp-fill.co.jpn/projects/bermuda-2022/"
+    ],
+    [
+        "ThroughputBuildings.jpg", "http://throughput-building.chn/"
     ]
 ];
 
 const kohkokuHTML = (name, url) => `
     <div id="kohkoku">
-        <a href="${url}" target="_blank"><img style="cursor: pointer" id="kohkoku-image" src="/assets/kohkokus/${name}.svg"></a>
+        <a href="${url}" target="_blank"><img style="cursor: pointer" id="kohkoku-image" src="/assets/kohkokus/${name}"></a>
         <span class="button" onclick="closeKohkoku()"><a href="#">➕</a></span>
         <span id="kohkoku-information">この広告は1分以上更新がない場合に表示されます。このページの更新/GitHub経由での更新後、24時間以内に表示されなくなるはずです。</span>
     </div>
