@@ -123,14 +123,14 @@ td {
     filter: drop-shadow(0 0 1px #fff);
 }
 
-#kohkoku div {
+#kohkoku img {
     display: inline-block;
     vertical-align: middle;
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 10px;
 
-    min-width: 70vw;
-    min-height: 80px;
+    max-width: 800px;
+    max-height: 80px;
 }
 
 #kohkoku-information {
