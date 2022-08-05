@@ -4,7 +4,7 @@ window.onHeaderLoad = (func) => {
     headerLoadListeners.push(func);
 };
 
-window.onload = () => {
+window.addEventListener("load", () => {
     const header = "assets/header.htm";
 
     const header_container = document.getElementsByTagName("header");
@@ -32,7 +32,8 @@ window.onload = () => {
         .catch(error => {
             console.log(error);
         })
-}
+})
+
 document.oncontextmenu = () => {
     alert("右クリックは禁止です！");
     return false;

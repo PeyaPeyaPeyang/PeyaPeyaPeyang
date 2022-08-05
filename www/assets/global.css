@@ -1,7 +1,7 @@
 * {
     color: #eee;
     font-family: "MS Gothic", serif;
-
+    cursor: crosshair;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     background-repeat: repeat-y;
     background-position: -60px, calc(100vw - 100px);
     background-size: 150px;
+
 }
 
 header, .container {
@@ -19,8 +20,31 @@ header, .container {
     align-items: center;
 }
 
+#title {
+    border: solid 7px lavender;
+    width: 700px;
+    height: 100px;
+    font-size: 40px;
+}
+
+#title > td {
+    border: solid 1px lavender;
+}
+
+#title strong {
+    font-size: 35px;
+}
+
+p, span, #welcome-message {
+    font-size: small;
+}
+
+
 a {
-    color: red;
+    /* color: red; */
+    /* color: olivedrab; */
+    color: chocolate;
+    cursor: pointer;
 }
 
 table {
@@ -118,5 +142,18 @@ td {
 
     color: #C0C0C0;
 
+    font-family: "Meiryo", serif;
+}
+
+hr {
+    border: solid 1px #C0C0C0;
+    margin: 50px 10px 10px;
+
+    width: 60vw;
+}
+
+h2.title {
+    font-size: 25px;
+    margin: 10px;
     font-family: "Meiryo", serif;
 }
