@@ -5,7 +5,7 @@ window.onHeaderLoad = (func) => {
 };
 
 window.addEventListener("load", () => {
-    const header = "assets/header.htm";
+    const header = "/assets/header.htm";
 
     const header_container = document.getElementsByTagName("header");
     const header_container_0 = header_container[0];
