@@ -140,7 +140,10 @@ KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong
 ---
 
 ## 法のあれこれ
-+ このREADME および このリポジトリは, [NYSLライセンス v0.9982](LICENSE)で公開されています.
++ このREADME および このリポジトリは**以下のファイル・ディレクトリを除き**, [NYSLライセンス v0.9982](LICENSE)で公開されています.
+  + /www/assets/banners/
+  + /www/assets/background.png
+  + /www/assets/sparkles.js
 
 #### ところで
 <details>
