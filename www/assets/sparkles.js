@@ -1,6 +1,6 @@
 const colour = "random"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
 const sparkles = 50;
-const mleft = 18;
+const mleft = 25;
 const mtop = 12;
 
 /****************************
@@ -30,26 +30,8 @@ const tinyy = [];
 const tinyv = [];
 
 const set_width = () => {
-    let sw_min = 999999;
-    let sh_min = 999999;
-    if (d.documentElement && d.documentElement.clientWidth) {
-        if (d.documentElement.clientWidth > 0) sw_min = d.documentElement.clientWidth;
-        if (d.documentElement.clientHeight > 0) sh_min = d.documentElement.clientHeight;
-    }
-    if (typeof (self.innerWidth) == 'number' && self.innerWidth) {
-        if (self.innerWidth > 0 && self.innerWidth < sw_min) sw_min = self.innerWidth;
-        if (self.innerHeight > 0 && self.innerHeight < sh_min) sh_min = self.innerHeight;
-    }
-    if (d.body.clientWidth) {
-        if (d.body.clientWidth > 0 && d.body.clientWidth < sw_min) sw_min = d.body.clientWidth;
-        if (d.body.clientHeight > 0 && d.body.clientHeight < sh_min) sh_min = d.body.clientHeight;
-    }
-    if (sw_min === 999999 || sh_min === 999999) {
-        sw_min = 800;
-        sh_min = 600;
-    }
-    swide = sw_min;
-    shigh = sh_min;
+    swide = d.documentElement.clientWidth;
+    shigh = d.documentElement.clientHeight;
 };
 
 al("load", () => {
