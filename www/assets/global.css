@@ -74,6 +74,7 @@ header, .container {
     position: absolute;
     background-color: gold;
     text-align: center;
+    z-index: 1000;
 
     height: 91px;
     width: 296px;
@@ -94,6 +95,7 @@ header, .container {
 
     margin-top: 3px;
     font-weight: bold;
+    cursor: text;
 }
 
 .separator {
