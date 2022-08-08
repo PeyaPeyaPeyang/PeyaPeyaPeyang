@@ -62,14 +62,22 @@ jobs:
           -e "s/\\\$CONTACT_FORM_EMAIL_ID\\\$/$CONTACT_FORM_EMAIL_ID/g" \
           -e "s/\\\$CONTACT_FORM_MESSAGE_ID\\\$/$CONTACT_FORM_MESSAGE_ID/g" \
           -i
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v1
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
         with:
-          # Upload entire repository
-          path: 'www/'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@main
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: a9b684856b00642bf54b626fbb9ea554
+          projectName: peya-profile
+          directory: www
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v1
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #  with:
+      #     # Upload entire repository
+      #     path: 'www/'
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@main
