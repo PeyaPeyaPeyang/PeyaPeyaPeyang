@@ -18,6 +18,9 @@ const kohkokus = [
     ],
     [
         "ThroughputBuildings.jpg", "http://throughput-building.chn/"
+    ],
+    [
+        "Gaming_pail.svg", "https://dotbeans.tool/pail/"
     ]
 ];
 
