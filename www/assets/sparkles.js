@@ -81,8 +81,7 @@ const sparkle = () => {
                 star[c].childNodes[0].style.backgroundColor = star[c].childNodes[1].style.backgroundColor = (colour === "random") ? newColour() : colour;
                 if (x < w.innerWidth + sleft - mleft && y < w.innerHeight + sdown - mtop)
                     star[c].style.visibility = "visible";
-                else
-                {
+                else {
                     star[c].style.top = w.innerHeight + sdown - mtop + "px";
                     star[c].style.left = w.innerWidth + sleft - mleft + "px";
 
@@ -127,8 +126,7 @@ const update_star = (i) => {
         star[i].style.visibility = "hidden";
         if (stary[i] < w.innerHeight + sdown - mtop && starx[i] < w.innerWidth + sleft - mleft)
             tiny[i].style.visibility = "visible"
-        else
-        {
+        else {
             tiny[i].style.top = w.innerHeight + sdown - mtop + "px";
             tiny[i].style.left = w.innerWidth + sleft - mleft + "px";
         }
@@ -178,9 +176,9 @@ const set_scroll = () => {
 al("mousemove", (e) => {
         if (e) {
             if (e.pageX < w.innerWidth + sleft)
-                x=e.pageX - 10;
+                x = e.pageX - 10;
             if (e.pageY < w.innerHeight + sdown)
-                y=e.pageY - 10;
+                y = e.pageY - 10;
         } else {
             set_scroll();
             y = event.y + sdown;

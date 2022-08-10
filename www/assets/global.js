@@ -65,8 +65,8 @@ window.addEventListener("load", () => {
 
                 // if counter is loaded, adblock is not detected.
 
-                if (counter.complete && counter.naturalHeight !== 0) {}
-                else {
+                if (counter.complete && counter.naturalHeight !== 0) {
+                } else {
                     alert('AdBlockが検出されました。\n' +
                         'ユーザエクスペリエンスを向上させるために、AdBlockを解除してください。\n' +
                         '(アクセスカウンターが動きません！)\nキリ番が踏めなくなります！！！');

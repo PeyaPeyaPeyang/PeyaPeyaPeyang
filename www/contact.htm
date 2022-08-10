@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="ja">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
     <title>✞ぺやんぐのホームページ✞</title>
 
-    <link rel="stylesheet" href="assets/global.css">
-    <script type="text/javascript" src="assets/global.js"></script>
-    <script type="text/javascript" src="assets/sparkles.js"></script>
+    <link href="assets/global.css" rel="stylesheet">
+    <script src="assets/global.js" type="text/javascript"></script>
+    <script src="assets/sparkles.js" type="text/javascript"></script>
 
-    <link rel="stylesheet" href="assets/contents/content_header.css">
-    <script type="text/javascript" src="assets/contents/content_header.js"></script>
+    <link href="assets/contents/content_header.css" rel="stylesheet">
+    <script src="assets/contents/content_header.js" type="text/javascript"></script>
     <style>
         input {
             width: 100%;
@@ -47,7 +47,7 @@
 
         fieldset {
             border: 1px solid #ccc;
-            padding:20px 90px 20px 90px;
+            padding: 20px 90px 20px 90px;
             width: 50vw;
         }
 
@@ -114,24 +114,25 @@
     <br>
 
     <div>
-        <form action="https://docs.google.com/forms/u/$CONTACT_FORM_USER_ID$/d/e/$CONTACT_FORM_ID$/formResponse" method="post">
+        <form action="https://docs.google.com/forms/u/$CONTACT_FORM_USER_ID$/d/e/$CONTACT_FORM_ID$/formResponse"
+              method="post">
             <fieldset>
-                <input id="name" name="entry.$CONTACT_FORM_NAME_ID$" class="small"
-                       type="text" placeholder="お名前" value="名無しさん"
-                       onkeydown="validation()" onchange="validation()" onfocus="validation()">
-                <input id="email" name="entry.$CONTACT_FORM_EMAIL_ID$" class="small"
-                       type="text" placeholder="メールアドレス"
-                       onkeydown="validation()" onchange="validation()" onfocus="validation()">
+                <input class="small" id="name" name="entry.$CONTACT_FORM_NAME_ID$"
+                       onchange="validation()" onfocus="validation()" onkeydown="validation()"
+                       placeholder="お名前" type="text" value="名無しさん">
+                <input class="small" id="email" name="entry.$CONTACT_FORM_EMAIL_ID$"
+                       onchange="validation()" onfocus="validation()"
+                       onkeydown="validation()" placeholder="メールアドレス" type="text">
                 <br>
-                <input id="f_title" name="entry.$CONTACT_FORM_TITLE_ID$" class="medium"
-                       type="text" placeholder="タイトル"
-                       onkeydown="validation()" onchange="validation()" onfocus="validation()">
+                <input class="medium" id="f_title" name="entry.$CONTACT_FORM_TITLE_ID$"
+                       onchange="validation()" onfocus="validation()"
+                       onkeydown="validation()" placeholder="タイトル" type="text">
                 <br>
-                <textarea id="body" name="entry.$CONTACT_FORM_MESSAGE_ID$"
-                          laceholder="お問い合わせ内容"
-                          onkeydown="validation()" onchange="validation()" onfocus="validation()"></textarea>
+                <textarea id="body" laceholder="お問い合わせ内容"
+                          name="entry.$CONTACT_FORM_MESSAGE_ID$"
+                          onchange="validation()" onfocus="validation()" onkeydown="validation()"></textarea>
                 <br>
-                <input type="button" id="submit_btn" onclick="doSubmit()" value="送信" disabled>
+                <input disabled id="submit_btn" onclick="doSubmit()" type="button" value="送信">
             </fieldset>
         </form>
     </div>
