@@ -6,6 +6,7 @@
 
 <a href="README.wiki.md">出典：フリーぺやんぐ辞典『PeyaPedia』</a>
 
+
 ---
 
 <h1 align="center">超天才ぺやんぐさん！</h1>
