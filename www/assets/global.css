@@ -22,6 +22,11 @@ header, .container {
     align-items: center;
 }
 
+#wrapper {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
 #title {
     border: solid 7px lavender;
     width: 46vw;

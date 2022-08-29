@@ -29,22 +29,24 @@
     </style>
 </head>
 <body>
-<header></header>
-<div class="container">
-    <br>
-    <h2 class="title">隠しページに入室するにはパスワードを入力してください！</h2>
-    <div style="text-align: center">
-        <input id="password" placeholder="パスワードを入力してください" type="text" onkeydown="if (event.keyCode === 13) submit(this.value)">
-        <button id="submit_btn" onclick="submit((password).value)" type="button">ログイン</button>
+<div id="wrapper">
+    <header></header>
+    <div class="container">
         <br>
-        <br>
-        <br>
-        <br>
-        <a href="javascript:alert(getRandomHint())">パスワードが分からない？</a>
-        <br>
-        <br>
+        <h2 class="title">隠しページに入室するにはパスワードを入力してください！</h2>
+        <div style="text-align: center">
+            <input id="password" placeholder="パスワードを入力してください" type="text" onkeydown="if (event.keyCode === 13) submit(this.value)">
+            <button id="submit_btn" onclick="submit((password).value)" type="button">ログイン</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="javascript:alert(getRandomHint())">パスワードが分からない？</a>
+            <br>
+            <br>
 
-        <a href="/">TOPページに戻る</a>
+            <a href="/">TOPページに戻る</a>
+        </div>
     </div>
 </div>
 </body>

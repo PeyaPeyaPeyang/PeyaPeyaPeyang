@@ -106,36 +106,38 @@
 
 </head>
 <body>
-<header></header>
-<div class="container">
-    <div id="content_header"></div>
+<div id="wrapper">
+    <header></header>
+    <div class="container">
+        <div id="content_header"></div>
 
-    <h2 class="title">お問い合わせ</h2>
-    <br>
-    <br>
+        <h2 class="title">お問い合わせ</h2>
+        <br>
+        <br>
 
-    <div>
-        <form action="https://docs.google.com/forms/u/$CONTACT_FORM_USER_ID$/d/e/$CONTACT_FORM_ID$/formResponse"
-              method="post">
-            <fieldset>
-                <input class="small" id="name" name="entry.$CONTACT_FORM_NAME_ID$"
-                       onchange="validation()" onfocus="validation()" onkeydown="validation()"
-                       placeholder="お名前" type="text" value="名無しさん">
-                <input class="small" id="email" name="entry.$CONTACT_FORM_EMAIL_ID$"
-                       onchange="validation()" onfocus="validation()"
-                       onkeydown="validation()" placeholder="メールアドレス" type="text">
-                <br>
-                <input class="medium" id="f_title" name="entry.$CONTACT_FORM_TITLE_ID$"
-                       onchange="validation()" onfocus="validation()"
-                       onkeydown="validation()" placeholder="タイトル" type="text">
-                <br>
-                <textarea id="body" laceholder="お問い合わせ内容"
-                          name="entry.$CONTACT_FORM_MESSAGE_ID$"
-                          onchange="validation()" onfocus="validation()" onkeydown="validation()"></textarea>
-                <br>
-                <input disabled id="submit_btn" onclick="doSubmit()" type="button" value="送信">
-            </fieldset>
-        </form>
+        <div>
+            <form action="https://docs.google.com/forms/u/$CONTACT_FORM_USER_ID$/d/e/$CONTACT_FORM_ID$/formResponse"
+                  method="post">
+                <fieldset>
+                    <input class="small" id="name" name="entry.$CONTACT_FORM_NAME_ID$"
+                           onchange="validation()" onfocus="validation()" onkeydown="validation()"
+                           placeholder="お名前" type="text" value="名無しさん">
+                    <input class="small" id="email" name="entry.$CONTACT_FORM_EMAIL_ID$"
+                           onchange="validation()" onfocus="validation()"
+                           onkeydown="validation()" placeholder="メールアドレス" type="text">
+                    <br>
+                    <input class="medium" id="f_title" name="entry.$CONTACT_FORM_TITLE_ID$"
+                           onchange="validation()" onfocus="validation()"
+                           onkeydown="validation()" placeholder="タイトル" type="text">
+                    <br>
+                    <textarea id="body" laceholder="お問い合わせ内容"
+                              name="entry.$CONTACT_FORM_MESSAGE_ID$"
+                              onchange="validation()" onfocus="validation()" onkeydown="validation()"></textarea>
+                    <br>
+                    <input disabled id="submit_btn" onclick="doSubmit()" type="button" value="送信">
+                </fieldset>
+            </form>
+        </div>
     </div>
 </div>
 </body>
