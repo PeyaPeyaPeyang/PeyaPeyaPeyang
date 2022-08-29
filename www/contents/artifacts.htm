@@ -8,7 +8,6 @@
     <link href="../assets/global.css" rel="stylesheet">
     <script src="../assets/global.js" type="text/javascript"></script>
     <script src="../assets/sparkles.js" type="text/javascript"></script>
-
     <link href="../assets/contents/content_header.css" rel="stylesheet">
     <script src="../assets/contents/content_header.js" type="text/javascript"></script>
     <style>
@@ -80,24 +79,11 @@
         }
     </style>
 
+    <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed" type="text/javascript"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" rel="stylesheet">
+
     <script>
         window.addEventListener("load", () => {
-            const artifacts = document.querySelectorAll(".artifacts > li");
-            artifacts.forEach(artifact => {
-                const artifactName = artifact.attributes["id"].value;
-                const imagesContainer = artifact.querySelector(".artifact_images");
-                const imageCount = 0 + imagesContainer.attributes["data-image-count"].value;
-
-                for (let i = 0; i < imageCount; i++) {
-                    const image = document.createElement("img");
-                    image.src = "/assets/contents/artifacts/" + artifactName + "/" + i + ".min.png";
-                    image.alt = artifactName + "-" + i;
-                    image.title = artifactName + "-" + i;
-                    image.className = "artifact_image";
-                    imagesContainer.appendChild(image);
-                }
-            });
-
             const table_of_contents = document.querySelectorAll(".artifact_list");
 
             table_of_contents.forEach(list => {
@@ -114,7 +100,26 @@
                     li.appendChild(anchor);
                     list.appendChild(li);
                 });
-            })
+            });
+
+
+            const artifacts = document.querySelectorAll(".artifacts > li");
+            artifacts.forEach(artifact => {
+                const artifactName = artifact.attributes["id"].value;
+                const imagesContainer = artifact.querySelector(".artifact_images");
+                const imageCount = 0 + imagesContainer.attributes["data-image-count"].value;
+
+                for (let i = 0; i < imageCount; i++) {
+                    const image = document.createElement("img");
+                    image.src = "/assets/contents/artifacts/" + artifactName + "/" + i + ".min.png";
+                    image.alt = artifactName + "-" + i;
+                    image.title = artifactName + "-" + i;
+                    image.className = "artifact_image";
+                    image.loading = "lazy";
+                    image.decoding = "async";
+                    imagesContainer.appendChild(image);
+                }
+            });
         });
     </script>
 </head>
@@ -298,7 +303,16 @@
                     <a href="#hp_sync"><h2>HP同期プラグイン</h2></a>
                 </div>
                 <div class="artifact_images" data-image-count="0"></div>
-                <iframe width="650" height="350" src="https://www.youtube.com/embed/AhGo-5AIQ44" title="50人のHPが共有された世界でサバイバル -マインクラフト【KUN】" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <lite-youtube
+                        videoid="AhGo-5AIQ44"
+                        autoplay="1"
+                        loop="1"
+                        start="0"
+                        end="0"
+                        width="650"
+                        height="350"
+                        >
+                </lite-youtube>
 
                 <table class="artifact_attributes">
                     <tbody>
