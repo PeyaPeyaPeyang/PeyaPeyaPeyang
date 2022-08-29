@@ -181,8 +181,9 @@ td {
     position: absolute;
     right: 0;
 
-    min-width: 10px;
-    min-height: 10px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
 }
 
 #kohkoku .button > a {
