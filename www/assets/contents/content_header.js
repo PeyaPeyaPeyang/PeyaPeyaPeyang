@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    const header = "assets/contents/content_header.htm";
+    const header = "../assets/contents/content_header.htm";
 
     fetch(header)
         .then(response => response.text())
