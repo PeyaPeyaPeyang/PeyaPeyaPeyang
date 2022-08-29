@@ -211,8 +211,10 @@ td {
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 10px;
 
-    width: 800px;
-    height: 80px;
+    width: 90vw;
+    height: auto;
+
+    max-width: 800px;
 }
 
 #kohkoku-information {
