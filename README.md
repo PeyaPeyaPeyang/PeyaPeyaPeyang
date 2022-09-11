@@ -33,17 +33,17 @@
   <a href="https://twitter.com/peyang9799"><img align="center" src="https://img.shields.io/static/v1?label=Twitter&message=peyang9799&color=%231DA1F2&style=flat-square"></a>
   <br>
   <br>
-  <a href=""><img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=peyang-Celeron&theme=github_dark" height="200"></a>
+  <a href=""><img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PeyaPeyaPeyang&theme=github_dark" height="200"></a>
   <br>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=peyang-Celeron&show_icons=true&theme=github_dark&&include_all_commits=true" height="200"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=peyang-Celeron&show_icons=true&theme=github_dark&hide=shell&layout=compact" height="200"></a>
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=peyang-Celeron&row=1&no-bg=true&no-frame=true&theme=darkhub"></a>
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img align="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/profile-3d-contrib/profile-night-rainbow.svg" width=700></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=PeyaPeyaPeyang&show_icons=true&theme=github_dark&&include_all_commits=true" height="200"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=PeyaPeyaPeyang&show_icons=true&theme=github_dark&hide=shell&layout=compact" height="200"></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=PeyaPeyaPeyang&row=1&no-bg=true&no-frame=true&theme=darkhub"></a>
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib"><img align="center" src="https://raw.githubusercontent.com/PeyaPeyaPeyang/PeyaPeyaPeyang/master/profile-3d-contrib/profile-night-rainbow.svg" width=700></a>
   <br>
   <br>
-  <a href="https://profile.codersrank.io/user/peyang-celeron/"><img align="center" src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=peyang-Celeron" width="600"></a>
+  <a href="https://profile.codersrank.io/user/PeyaPeyaPeyang/"><img align="center" src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=PeyaPeyaPeyang" width="600"></a>
   <br>
   
-  <img aligh="center" src="https://raw.githubusercontent.com/peyang-Celeron/peyang-Celeron/master/thisisliterallyabadge.png" width="100">
+  <img aligh="center" src="https://raw.githubusercontent.com/PeyaPeyaPeyang/PeyaPeyaPeyang/master/thisisliterallyabadge.png" width="100">
 </p>
 
 
@@ -51,7 +51,7 @@
 
 ## せんでん
 
-### [Peyang Awesome Pterodactyl Theme](https://gist.github.com/peyang-Celeron/6022f4d4ae42728e4f8d27df5d85f75a)
+### [Peyang Awesome Pterodactyl Theme](https://gist.github.com/PeyaPeyaPeyang/6022f4d4ae42728e4f8d27df5d85f75a)
 
 ぺやん製のつよつよ Pterodactyl テーマ(UserCSS)。(A pterodactyl theme made by UserCSS)  
 主な機能(Features)：
@@ -59,7 +59,7 @@
 + カスタムエディタフォント(Custom editor font)
 etc...
 
-<a href="https://gist.github.com/peyang-Celeron/6022f4d4ae42728e4f8d27df5d85f75a"><img src="https://user-images.githubusercontent.com/42040068/181637869-57f36b8d-4034-425b-9b2e-90598f4183c8.png" width=550></a> 
+<a href="https://gist.github.com/PeyaPeyaPeyang/6022f4d4ae42728e4f8d27df5d85f75a"><img src="https://user-images.githubusercontent.com/42040068/181637869-57f36b8d-4034-425b-9b2e-90598f4183c8.png" width=550></a> 
 <br>
 (Background image: https://search.find47.jp/ja/i/LeA39, Kyoto, Japan, CC-BY 4.0 Author: Suganu0405)
 
