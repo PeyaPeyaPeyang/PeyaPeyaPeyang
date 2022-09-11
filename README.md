@@ -5,6 +5,7 @@
 </a>
 
 <a href="README.wiki.md">出典：フリーぺやんぐ辞典『PeyaPedia』</a>
+
 ---
 
 <h1 align="center">超天才ぺやんぐさん！</h1>
@@ -25,7 +26,7 @@
   ✞↑おねがい押して！！！！↑✞
   <br>
   <br>
-  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#c4b04b10-128d-11ed-be99-adfd66865d3a"></a> 人目のアリス... ✞✞
+  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#893d59d0-3199-11ed-948b-0d0d114458fc"></a> 人目のアリス... ✞✞
   <br>
   <br>
   <a href="mailto:contact@mail.peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
@@ -60,9 +61,7 @@
 etc...
 
 <a href="https://gist.github.com/PeyaPeyaPeyang/6022f4d4ae42728e4f8d27df5d85f75a"><img src="https://user-images.githubusercontent.com/42040068/181637869-57f36b8d-4034-425b-9b2e-90598f4183c8.png" width=550></a> 
-<br>
 (Background image: https://search.find47.jp/ja/i/LeA39, Kyoto, Japan, CC-BY 4.0 Author: Suganu0405)
-
 
 ### [TeamKUN ~Package~ Plugin Manager](https://github.com/TeamKun/TeamKUNPluginManager)
 
@@ -142,10 +141,7 @@ KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong
 ---
 
 ## 法のあれこれ
-+ このREADME および このリポジトリは**以下のファイル・ディレクトリを除き**, [NYSLライセンス v0.9982](LICENSE)で公開されています.
-  + /www/assets/banners/
-  + /www/assets/background.png
-  + /www/assets/sparkles.js
++ このREADME および このリポジトリは, [NYSLライセンス v0.9982](LICENSE)で公開されています.
 
 #### ところで
 <details>
