@@ -1,5 +1,5 @@
 const password = {
-    "ぶにじどぺゃずろ": "私の名前。"
+    "えきむっごきへで": "最強の私の名前。"
 };
 
 const generateRange = (startChar, endChar) => {
@@ -76,14 +76,14 @@ const bakePassword = (password) => {
     return hashChar;
 }
 
-const submit = (password) => {
+const submit = (inputPassword) => {
     if (password === "")
     {
         alert("パスワードを入力してください！");
         return;
     }
 
-    const bakedPassword = bakePassword(password);
+    const bakedPassword = bakePassword(inputPassword);
 
     if (password[bakedPassword] === undefined)
     {
@@ -91,9 +91,7 @@ const submit = (password) => {
         return;
     }
 
-    const url = "private/" + bakedPassword;
-
-    window.open(url, "_blank");
+    window.open(bakedPassword, "_blank");
 }
 
 const getRandomHint = () => {
