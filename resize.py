@@ -1,19 +1,22 @@
-# Shortest code exam
+import os
+import glob
+from PIL import Image
 
-# The problem is to find the sum of the ASCII values of lowercase letters.
-# Input
-# Line 1: A string s
-# Output
-# Line 1 : Sum of the ASCII values of the lowercase letters in the string.
-# Constraints
-# s is a string of length 1 to 100 consisting of alphabetic characters only.
-# Example
-# Input
-# a
-# Output
-# 97
+to_width = 650
 
-print(sum(map(ord,filter(str.islower,input()))))
+dir = 'www/assets/contents/artifacts/'
 
-# 2nd solution
-print(sum(map(ord,filter(''.islower(input())))))
+target_images = glob.glob(dir + '**/*.png', recursive=True)
+
+for image in target_images:
+    if image.endswith('.min.png'):
+        continue
+    print("Found: " + image)
+    im = Image.open(image)
+    original_width, original_height = im.size
+
+    resized_height = int(original_height / (original_width / to_width))
+
+    im_resized = im.resize((to_width, resized_height), Image.ANTIALIAS)
+
+    im_resized.save(image[:-4] + '.min.png')
