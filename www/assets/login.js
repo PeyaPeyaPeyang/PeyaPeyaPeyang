@@ -91,7 +91,7 @@ const submit = (inputPassword) => {
         return;
     }
 
-    window.open("frame.html?dist=" + bakedPassword + "&password=" + password[bakedPassword], "_self");
+    window.open("frame.html?dist=" + bakedPassword + "&password=" + inputPassword, "_self");
 }
 
 const getRandomHint = () => {
