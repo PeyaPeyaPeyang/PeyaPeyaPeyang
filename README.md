@@ -1,11 +1,10 @@
 <a href="README.cli.md">Switch to CLI mode</a>
 
-<a href="README.ja.md">このページのディスプレイ言語はもう1つ(s)の言語においてcompatibleを行います：日本國語  
+<a href="README.ja.md">このページのディスプレイ言語はもう1つ(s)の言語においてcompatibleを行います：日國語  
 翻訳者: フリー百科翻訳者『ぺやんぐ（DeeProZanaTranslator's CaFluExciThe Million DirecTransifex Pro' Peyang Edition）』
 </a>
 
 <a href="README.wiki.md">出典：フリーぺやんぐ辞典『PeyaPedia』</a>
-
 ---
 
 <h1 align="center">超天才ぺやんぐさん！</h1>
@@ -26,10 +25,10 @@
   ✞↑おねがい押して！！！！↑✞
   <br>
   <br>
-  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#093df270-68fe-11ed-a463-3738f81b67b6"></a> 人目のアリス... ✞✞
+  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#c4b04b10-128d-11ed-be99-adfd66865d3a"></a> 人目のアリス... ✞✞
   <br>
   <br>
-  <a href="mailto:contact@mail.peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
+  <a href="mailto:peyang@peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
   <img align="center" src="https://img.shields.io/static/v1?label=Discord&message=Peyang%230001&color=%237289DA&style=flat-square">
   <a href="https://twitter.com/peyang9799"><img align="center" src="https://img.shields.io/static/v1?label=Twitter&message=peyang9799&color=%231DA1F2&style=flat-square"></a>
   <br>
@@ -61,7 +60,9 @@
 etc...
 
 <a href="https://gist.github.com/PeyaPeyaPeyang/6022f4d4ae42728e4f8d27df5d85f75a"><img src="https://user-images.githubusercontent.com/42040068/181637869-57f36b8d-4034-425b-9b2e-90598f4183c8.png" width=550></a> 
+<br>
 (Background image: https://search.find47.jp/ja/i/LeA39, Kyoto, Japan, CC-BY 4.0 Author: Suganu0405)
+
 
 ### [TeamKUN ~Package~ Plugin Manager](https://github.com/TeamKun/TeamKUNPluginManager)
 
@@ -141,7 +142,7 @@ KUNLab(今のところぺやんのみ)製のつよつよPaperLibrary。(A strong
 ---
 
 ## 法のあれこれ
-+ このREADME および このリポジトリは, [NYSLライセンス v0.9982](LICENSE)で公開されています.
++ このREADME および このリポジトリは [NYSLライセンス v0.9982](LICENSE)で公開されています.
 
 #### ところで
 <details>
