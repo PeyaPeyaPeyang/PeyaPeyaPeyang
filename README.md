@@ -28,7 +28,7 @@
   ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#c4b04b10-128d-11ed-be99-adfd66865d3a"></a> 人目のアリス... ✞✞
   <br>
   <br>
-  <a href="mailto:contact@mail.peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
+  <a href="mailto:peyang@peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
   <img align="center" src="https://img.shields.io/static/v1?label=Discord&message=Peyang%230001&color=%237289DA&style=flat-square">
   <a href="https://twitter.com/peyang9799"><img align="center" src="https://img.shields.io/static/v1?label=Twitter&message=peyang9799&color=%231DA1F2&style=flat-square"></a>
   <br>
