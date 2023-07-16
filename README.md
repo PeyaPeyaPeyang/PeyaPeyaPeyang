@@ -16,7 +16,6 @@
     <summary>そうはならんやろ</summary>
     なっとるやろがい
   </details>
-
 <p align="center">
   ✞⇣おねがい押して！！！！⇣✞
   <br>
