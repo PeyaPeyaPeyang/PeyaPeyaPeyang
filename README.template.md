@@ -47,7 +47,6 @@
   <img aligh="center" src="https://raw.githubusercontent.com/PeyaPeyaPeyang/PeyaPeyaPeyang/master/thisisliterallyabadge.png" width="100">
 </p>
 
-
 ---
 
 ## せんでん
