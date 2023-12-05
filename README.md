@@ -26,7 +26,7 @@
   ✞↑おねがい押して！！！！↑✞
   <br>
   <br>
-  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#f4d59e30-92cf-11ee-bb4f-0fd9077eb6a3"></a> 人目のアリス... ✞✞
+  ✞✞ あなたは <a href="http://www.rays-counter.com/"><img align="center" src="http://www.rays-counter.com/d479_f6_025/6035578ba4ece/#175611a0-9399-11ee-93ef-c706e96f6f86"></a> 人目のアリス... ✞✞
   <br>
   <br>
   <a href="mailto:contact@mail.peya.tokyo"><img align="center" src="https://img.shields.io/static/v1?label=Contact&message=Mail&color=%23E45648&style=flat-square"></a>
